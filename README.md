@@ -1,2 +1,2 @@
 # - চলো Ghuri
-চলো Ghuri frontend  done by two night 
+চলো Ghuri is an travel related website done by one night :v

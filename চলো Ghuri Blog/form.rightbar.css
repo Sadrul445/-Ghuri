@@ -1,0 +1,28 @@
+
+.rightbar{
+    grid-area:c;
+}
+.rightbar .menu {
+    width: 85%;
+    margin-top: 10rem;
+    margin-left: 15px;
+    padding: 20px;
+    float: left;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px grey;
+    background-color: rgba(246, 188, 188, 0.561);
+}
+.rightbar .menu ul {
+    list-style-type: none;
+    text-align: center;
+    font-size: 15px;
+}
+.rightbar .menu ul li {
+    margin-bottom: 40px;
+}
+.rightbar .menu ul li p{
+    font-size: 12px;
+    text-align: left;
+    padding: 10px;
+}

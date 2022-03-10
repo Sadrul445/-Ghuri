@@ -1,0 +1,34 @@
+.leftbar{
+    grid-area: a;
+    padding-left: 90px;
+}
+.leftbar .menu {
+    /* width: 90%;
+    margin-top: 15px;
+    float: left;
+    padding: 15px;
+    margin-left: 15px; */
+    margin-top: 10rem;
+    margin-left: 15px;
+    margin-right: 15px;
+    float: left;
+    border: none;
+    
+}
+.leftbar .menu ul {
+    list-style-type: none;
+    text-align: center;
+    font-size: 15px;
+    
+}
+.leftbar .menu ul li {
+    margin-bottom: 40px;
+    background-color: rgba(105, 251, 239, 0.356);
+    box-shadow: 2px 2px 4px grey;
+    padding: 15px;
+    border-radius: 10px;
+}
+.leftbar .menu ul li p{
+    font-size: 12px;
+    text-align: left;
+}

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.leftbar.css">
+    <link rel="stylesheet" href="form.centerbar.css">
+    <link rel="stylesheet" href="form.rightbar.css">
+    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="footer.css">
+    <title>Cholo Ghuri Blog</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="nav-container">
+        <div class="nav-left">
+          <h2 class="logo">চলো
+            <span style="
+                      color:brown;
+                      font-size: 35px;font-weight: 600;
+                      padding-left: 10px;">Ghuri
+            </span>
+            <img
+              src="https://img.icons8.com/external-outline-wichaiwi/64/000000/external-tour-digital-economy-outline-wichaiwi.png"
+              style="height: 40px; width: 35px; position: relative;left:8px;top: 3px;" />
+          </h2>
+
+        </div>
+        <div class="nav-right">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Gallery</a></li>
+            <li><a href="index.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="main-container">
+        <div class="leftbar">
+          <div class="menu">
+            <ul>
+              <li>
+                <h4 style="padding-bottom: 4px;">The Flight</h4>
+                <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi veniam nisi
+                  repellat! Repellat, velit ab consequuntur repellendus corrupti placeat maiores.</p>
+                <p style="color: rgb(13, 126, 255);text-align: center;padding: 10px;">Google Advertising</p>
+              </li>
+              <li>
+                <h4>The Train</h4>
+                <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi veniam nisi
+                  repellat! Repellat, velit ab consequuntur repellendus corrupti placeat maiores.</p>
+                <p style="color: rgb(13, 126, 255);text-align: center;padding: 10px;">Google Advertising</p>
+              </li>
+              <li>
+                <h4>The Bus</h4>
+                <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi veniam nisi
+                  repellat! Repellat, velit ab consequuntur repellendus corrupti placeat maiores.</p>
+                <p style="color: rgb(13, 126, 255);text-align: center;padding: 10px;">Google Advertising</p>
+              </li>
+              <li>
+                <h4>The Launch</h4>
+                <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi veniam nisi
+                  repellat! Repellat, velit ab consequuntur repellendus corrupti placeat maiores.</p>
+                <p style="color: rgb(13, 126, 255);text-align: center;padding: 10px;">Google Advertising</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="centerbar">
+          <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+            <h3><span>Tour Hobe ? ?</span>Soo, fill Up the Form</h3>
+
+            <div class="fbox">
+              <label for="">Name</label>
+              <input type="text" placeholder="Enter your name" id="username" name="name">
+            </div>
+
+            <div class="fbox">
+              <label for="">NID</label>
+              <input type="text" placeholder="NID number" id="nid" name="nid">
+            </div>
+
+            <div class="fbox">
+              <label for="">Tour Spot</label>
+              <select name="Select Tourist Sport" id="spot" name="spot">
+                <option value="disable" style="color: gray;" disabled>Select Your Tourist Spot</option>
+                <option value="Bandarban" id="spot">Bandarban</option>
+                <option value="Rangamati" id="spot">Rangamati--Sajek</option>
+                <option value="Rangamati" id="spot">Sundarban--Bagherhut</option>
+                <option value="Cox's Bazar" id="spot">Cox's Bazar</option>
+                <option value="Sylhet" id="spot">Sylhet</option>
+                <option value="Rajshahi" id="spot">Rajshahi</option>
+              </select>
+            </div>
+
+            <div class="fbox">
+              <label for="">Tour Date </label>
+              <input type="datetime-local" class="datebox" id="date" name="date">
+              <button class="button button1" type="submit" value="Submit">Submit</button>
+            </div>
+          </form>
+
+          <div class="card">
+            <div class="card1">
+              <img class="sajek" alt="sajek"
+                srcset="https://i.pinimg.com/736x/de/a3/9b/dea39bd57a58b3928012d4b43461a7a0.jpg" height="180"
+                width="260">
+              <h3>Sajek Valley</h3>
+              <h4>Price : 4000 taka</h4>
+              <div class="desc">
+                <h2>How to Go</h2>
+                <p>Though Sajek is located in the Rangamati district, it is much easier to travel with Dighinalala of
+                  Khagrachari district. So first you have to come to Khagrachari. If you want to go to Khagrachari from
+                  Dhaka, you can go by Saudia Paribahan, Shyamoli, Shanti Paribahan, S. Alam, Eagle, etc on the bus. It
+                  will cost you nearly BDT 520 in the Non-AC bus. If you want to go to the AC bus you will find BRTC or
+                  Saint Martin Paribahan with BDT 700 to 900. Besides, the Shanti Paribahan goes directly to Dighinala
+                  and it takes only BDT 580. There are counters of these buses at various points of the city including
+                  Gabtali, Kalabagan in Dhaka. If you want to go on holidays, it may be difficult to get a ticket if you
+                  don't buy the ticket before.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card2">
+              <img class="sajek" alt="sajek"
+                srcset="https://nijhoom.b-cdn.net/wp-content/uploads/2018/05/tiger-sundarbans-bangladesh-678-o.jpg"
+                height="180" width="260">
+              <h3>Dhaka | Sundarban | Bagherhut</h3>
+              <h4>Price : 5500 taka</h4>
+              <div class="desc">
+                <h2>How to Go</h2>
+                <p>Though Sajek is located in the Rangamati district, it is much easier to travel with Dighinalala of
+                  Khagrachari district. So first you have to come to Khagrachari. If you want to go to Khagrachari from
+                  Dhaka, you can go by Saudia Paribahan, Shyamoli, Shanti Paribahan, S. Alam, Eagle, etc on the bus. It
+                  will cost you nearly BDT 520 in the Non-AC bus. If you want to go to the AC bus you will find BRTC or
+                  Saint Martin Paribahan with BDT 700 to 900. Besides, the Shanti Paribahan goes directly to Dighinala
+                  and it takes only BDT 580. There are counters of these buses at various points of the city including
+                  Gabtali, Kalabagan in Dhaka. If you want to go on holidays, it may be difficult to get a ticket if you
+                  don't buy the ticket before.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card3">
+              <img class="sajek" alt="sajek"
+                srcset="https://i.pinimg.com/736x/de/a3/9b/dea39bd57a58b3928012d4b43461a7a0.jpg" height="180"
+                width="260">
+              <h3>Sajek Valley</h3>
+              <h4>Price : 4000 taka</h4>
+              <div class="desc">
+                <h2>How to Go</h2>
+                <p>Though Sajek is located in the Rangamati district, it is much easier to travel with Dighinalala of
+                  Khagrachari district. So first you have to come to Khagrachari. If you want to go to Khagrachari from
+                  Dhaka, you can go by Saudia Paribahan, Shyamoli, Shanti Paribahan, S. Alam, Eagle, etc on the bus. It
+                  will cost you nearly BDT 520 in the Non-AC bus. If you want to go to the AC bus you will find BRTC or
+                  Saint Martin Paribahan with BDT 700 to 900. Besides, the Shanti Paribahan goes directly to Dighinala
+                  and it takes only BDT 580. There are counters of these buses at various points of the city including
+                  Gabtali, Kalabagan in Dhaka. If you want to go on holidays, it may be difficult to get a ticket if you
+                  don't buy the ticket before.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rightbar">
+          <div class="menu">
+            <ul>
+              <li>
+                <h4>The Flight</h4>
+                <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi veniam nisi
+                  repellat! Repellat, velit ab consequuntur repellendus corrupti placeat maiores.</p>
+              </li>
+              <li>
+                <h4>The Train</h4>
+                <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi veniam nisi
+                  repellat! Repellat, velit ab consequuntur repellendus corrupti placeat maiores.</p>
+              </li>
+              <li>
+                <h4>The Bus</h4>
+                <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi veniam nisi
+                  repellat! Repellat, velit ab consequuntur repellendus corrupti placeat maiores.</p>
+              </li>
+              <li>
+                <h4>The Launch</h4>
+                <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi veniam nisi
+                  repellat! Repellat, velit ab consequuntur repellendus corrupti placeat maiores.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__addr">
+        <h1 class="footer__logo">Cholo Ghuri</h1>
+
+        <h2>Contact</h2>
+
+        <address>
+          007 Somewhere In. The World 22223-10212<br>
+
+          <a class="footer__btn" href="mailto:tanimchy8@gmail.com">Email Us</a>
+        </address>
+      </div>
+
+      <ul class="footer__nav">
+        <li class="nav__item">
+          <h2 class="nav__title">Media</h2>
+
+          <ul class="nav__ul">
+            <li>
+              <a href="#">Online</a>
+            </li>
+
+            <li>
+              <a href="#">Print</a>
+            </li>
+
+            <li>
+              <a href="#">Alternative Ads</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav__item nav__item--extra">
+          <h2 class="nav__title">Lorem</h2>
+
+          <ul class="nav__ul nav__ul--extra">
+            <li>
+              <a href="#">Lorem Design</a>
+            </li>
+
+            <li>
+              <a href="#">Lorem Design</a>
+            </li>
+
+            <li>
+              <a href="#">Lorem Design</a>
+            </li>
+
+            <li>
+              <a href="#">Lorem Design</a>
+            </li>
+
+            <li>
+              <a href="#">Lorem Design</a>
+            </li>
+
+            <li>
+              <a href="#">Lorem Design</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav__item">
+          <h2 class="nav__title">Legal</h2>
+
+          <ul class="nav__ul">
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="#">Terms of Use</a>
+            </li>
+
+            <li>
+              <a href="#">Sitemap</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="legal">
+        <p>&copy; 2022.All rights reserved by Sadrul Tanim.</p>
+
+        <div class="legal__links">
+          <span>Made with <span class="heart">♥</span> Sadrul Tanim</span>
+        </div>
+      </div>
+    </footer>
+    <!-- <script src="form.js"></script> -->
+    <script src="app.js"></script>
+  </body>
+
+</html>
